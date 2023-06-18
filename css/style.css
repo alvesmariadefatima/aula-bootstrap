@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightpink;
+    padding: 10px;
+    border: 2px solid hotpink;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    gap: 10px;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+a {
+    color: white;
+    font-family: Georgia;  
+    text-decoration-line: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logotipo-site {
+    border-radius: 200px;
+}
